@@ -518,7 +518,7 @@
 #line{
    
    border: 2px solid rgba(255, 255, 255, 0.1);
-   width: 1350px;
+   max-width: 1350px;
    margin: 0 auto;
 }
 #right{
@@ -545,3 +545,52 @@
 
 
 
+@media screen and (max-width:570px) {
+   .banner-container{ 
+      flex-direction: column;
+   }
+   .four-img{
+      flex-direction: column;
+   }
+   .section-part{
+      flex-direction: column;
+   }
+   .bmi-part{
+      flex-direction: column;
+   }
+   .meetImages{
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .section-14{
+      flex-direction: column;
+   }
+   .div-27{
+      padding: 12px;
+      width: auto;
+   }
+   .image-6{
+      width: 330px;
+   }
+   .nav-container{
+      flex-direction: column;
+   }
+   .secont-time{
+      left: -200px;
+   }
+   .transplant-one{
+      left: 180px;
+   }
+   #p-1{
+      width: auto;
+
+   }
+   #cal-two{
+      width: auto;
+   }
+   .simple-cal{
+      width: 350px;
+   }
+   .image-1{
+      width: 350px;
+   }
+}
